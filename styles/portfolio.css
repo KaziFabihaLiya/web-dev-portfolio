@@ -20,16 +20,15 @@
     color: #A3A3A3;
 }
 .head-container{
-    background-image: url(//images/header_bg.png), url(/images/developer.png);
+    background-image: url(/images/developer.png), url(../images/header_bg.png) ;
     background-repeat: no-repeat, no-repeat,no-repeat;
-    width: 1600px;
-    height: 837px;
+    background-position: top left, bottom right;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 230px;
+    margin: 0 230px 50px 230px;
 }
 nav-title{
     font-weight: 800;
@@ -67,4 +66,33 @@ nav h3{
     padding: 18px 35px;
     font-weight: 700;
     font-size: 20px;
+}
+/* About Section */
+
+.about_greeting{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+.about_name{
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0 20px 0;
+}
+.about_description{
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 18px 0 ;
+}
+.about_section{
+    max-width: 580px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.about_button_section{
+    display: flex;
+    gap: 20px;
 }
