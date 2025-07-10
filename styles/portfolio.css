@@ -67,6 +67,11 @@ nav h3{
     font-weight: 700;
     font-size: 20px;
 }
+
+main{
+    max-width: 1140px;
+    margin:0 auto; 
+}
 /* About Section */
 
 .about_greeting{
@@ -95,4 +100,39 @@ nav h3{
 .about_button_section{
     display: flex;
     gap: 20px;
+}
+
+/* Description */
+.description{
+    margin: 130px 0px;
+    padding: 131px 156px;
+
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFF8F3 ;
+}
+.description-foot{
+    display: flex;
+    gap:50px;
+    justify-content: center;
+}
+.description-title{
+    font-weight: 700;
+    font-size: 35px;
+}
+.descriptions{
+    font-weight:400 ;
+    font-size: 18px;
+}
+.weight-regular{
+    font-weight: 400;
+    font-size: 20px;
+}
+.weight-bold{
+    font-weight: 700;
+    font-size: 20px;
+}
+.do-para{
+    margin: 130px 0px 50px 0px;
+    text-align: center;
 }
