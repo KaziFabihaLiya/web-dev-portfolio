@@ -119,6 +119,7 @@ main{
 .description-title{
     font-weight: 700;
     font-size: 35px;
+    text-align: center;
 }
 .descriptions{
     font-weight:400 ;
@@ -135,4 +136,102 @@ main{
 .do-para{
     margin: 130px 0px 50px 0px;
     text-align: center;
+}
+/* Skill Description */
+
+.skill-container{
+    display: flex;
+    border-radius: 5px;
+    gap: 24px;
+}
+.skill-card{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.skill-card img{
+    padding: 30px 193px 30px 30px;
+    margin: 0px;
+}
+.skill-text{
+    padding: 0px 33px 30px 30px;
+    margin: 0px;
+}
+.skilldescription{
+    font-size: 16px;
+    font-weight: 400;
+}
+.skill-title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 113px;
+}
+.resume-container{
+    margin-top: 130px;
+}
+.resume-category{
+    display: flex;
+    gap:71px;
+
+}
+.resume-title{
+    text-align: center;
+}
+.edu-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.edu-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+hr{
+    width: 558px ;
+    color: #D1D1D1;
+}
+.align-center{
+    margin: 50px 700px 131px 700px;
+}
+.foot-container{
+    display: flex;
+    background-color: #FFF8F3;
+    padding-bottom: 130px;
+    justify-content: center;
+}
+
+.foot-description{
+    margin-top: 130px;
+}
+.foot-description img{
+    margin-right: 25px;
+}
+.foot-input-form{
+    margin: 130px 0px 0px 117px;
+}
+input[type="text"]{
+    width: 461px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #757575;
+    margin: 28px 0px 24px 0px;
+    padding-left: 30px;
+}
+input[type="email"]{
+    width: 461px;
+    height: 64px;
+    background-color: #FFFFFF;
+    color: #757575;
+    margin: 28px 0px 24px 0px;
+    padding-left: 30px;
+}
+textarea{
+    max-width: 461px;
+    height: 180px;
+    background-color: #FFFFFF;
+    color: #757575;
+    margin: 28px 0px 24px 0px;
+    padding: 30px;
 }
