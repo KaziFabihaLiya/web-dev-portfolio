@@ -67,6 +67,16 @@ nav h3{
     font-weight: 700;
     font-size: 20px;
 }
+.btn-primary2{
+    background-color:#FFFFFF ;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 main{
     max-width: 1140px;
@@ -191,6 +201,7 @@ main{
 .button-CV{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 hr{
     width: 558px ;
