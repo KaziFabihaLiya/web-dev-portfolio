@@ -227,7 +227,7 @@ hr{
 .foot-input-form{
     margin: 130px 0px 0px 117px;
 }
-input[type="text"]{
+input[type="text"], input[type="email"], textarea{
     width: 461px;
     height: 64px;
     border-radius: 5px;
@@ -237,7 +237,7 @@ input[type="text"]{
     padding-left: 30px;
     display: block;
 }
-input[type="email"]{
+/* input[type="email"]{
     width: 461px;
     height: 64px;
     border-radius: 5px;
@@ -245,18 +245,33 @@ input[type="email"]{
     color: #757575;
     margin: 28px 0px 24px 0px;
     padding-left: 30px;
-}
-textarea{
+} */
+/* textarea{
     width: 440px;
     height: 64px;
     border-radius: 5px;
     background-color: #FFFFFF;
     color: #757575;
     margin: 28px 0px 24px 0px;
-    padding: 30px;
-}
+    padding-left: 30px;
+} */
 .foot-title{
     font-weight: 700;
     font-size: 35px;
     text-align: left;
+}
+@media screen and (max-width: 576px){
+    .skill-container, .resume-category, .foot-container, .description-foot{
+        flex-direction: column;
+    }
+    .resume-container, .foot-description, .description{
+        padding: 20px;
+    }
+    .foot-input-form{
+        margin: 0px;
+        padding: 20px;
+    }
+    input[type="text"], input[type="email"], textarea{
+        width: calc(100% - 50px)
+    }
 }
