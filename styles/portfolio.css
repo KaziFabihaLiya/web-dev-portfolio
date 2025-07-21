@@ -261,8 +261,19 @@ input[type="text"], input[type="email"], textarea{
     text-align: left;
 }
 @media screen and (max-width: 576px){
-    .skill-container, .resume-category, .foot-container, .description-foot{
+    .skill-container, .resume-category, .foot-container, .description-foot, .about, nav, nav > ul{
         flex-direction: column;
+    }
+    .head-container{
+        background-image: none;
+        background-color: #ffe5d3;
+    }
+    .about, nav, nav > ul{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 20px ;
+    }
+    nav>ul{
+        margin-bottom: 20px;
     }
     .resume-container, .foot-description, .description{
         padding: 20px;
@@ -273,5 +284,8 @@ input[type="text"], input[type="email"], textarea{
     }
     input[type="text"], input[type="email"], textarea{
         width: calc(100% - 50px)
+    }
+    .about_pp{
+        width: 100%;
     }
 }
